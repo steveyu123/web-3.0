@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lunyr Crowdsale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+   
+
+<!--implemented Paper vBootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+  <style>
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+
+
+
+</head>
+<body>
+
+<div class="jumbotron text-center" id="jumbotron">
+  <h1 id="mainTitle">Lunyr Crowdsale</h1>
+</div>
+
+
+<!--Token Stats -->
+
+    <div class="col-sm-12">
+      <div class="well" id="tokenStatBlock">
+        <div id='tokenTitle'>Token Stats</div>
+        <div class="subToken">Smart Contract address: 0xBB9bc244D798123fDe783fCc1C72d3Bb8C189413 </div>
+        <div class="subToken">Total Supply: 10,950,000</div>
+        <div class="subToken">Ether Raised:14,000,000</div>
+        <div class="subToken"> Current LUN : ETH ratio        <span> 200 to 1<span></div>
+      </div>
+
+     <br>
+  <!--Choose Accounts -->   
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="well">
+            <div id="accountTitle">Choose Account
+        
+<!--Dropdown Choose Accounts -->
+  <div class='wrapper'>
+      <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="accountDropMenu">
+        Accounts
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="">Account 1</a></li>
+        <li><a href="">Account 2</a></li>
+       </ul>
+   </div>
+
+</div>
+
+
+
+<!--Balance Subgroups -->
+                 <div class="row"> 
+                    
+                    <div class="col-sm-6" id="lunBalance">
+                      <div class="well">
+                        <h4>LUN Balance</h4>
+                        <p>100 Million</p> 
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-6"  id="lunBalance">
+                      <div class="well">
+                        <h4>Eth Balance</h4>
+                        <p>10 Million</p> 
+                      </div>
+                    </div>
+                  </div>
+
+          </div>
+        </div>
+
+ 
+
+<!-- Ether spend block -->  
+            <div class="col-sm-12">
+
+<div class="well well-lg">
+
+  <div class="">Ether to spend</div>
+            
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">ETH</div>
+      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Ether">
+      <div class="input-group-addon">.00</div>
+    </div>
+  </div>
+
+
+<div class="row">
+  <div class="col-sm-6">
+       
+    <label class="control-label" for="disabledInput">Gas:</label>
+    <input class="form-control" id="disabledInput" type="text" placeholder="30,000" disabled="">
+
+  </div> 
+
+
+  <div class="col-sm-6">
+
+      <label class="control-label" for="focusedInput">Transactional Data</label>
+      <input class="form-control" id="focusedInput" type="text" placeholder="0x0dfas3435">
+      </div>
+
+</div>
+
+<br>
+
+<div class="row">
+ <div class="col-sm-3 col-sm-offset-6">
+        <div class="well well-sm">LUN you will receive <span id="LunGained">200</span>
+        </div> 
+      </div>
+   
+<!-- Transfer Lun Button -->
+ <div class="col-sm-2">
+  <button type="submit" class="btn btn-primary">Transfer to LUN</button>
+  </div>
+   </div>  
+          </div>
+         </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
