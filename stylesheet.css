@@ -1,0 +1,31 @@
+#jumbotron {
+	background-color: #2c3e50;
+}
+
+#mainTitle{
+	color: #ecf0f1;
+}
+
+#tokenStatBlock, #accountTitle {
+	text-align: center;
+	font-size: 2em;
+	color: #444444;
+}
+
+#tokenTitle {
+	font-weight: 600;
+}
+
+.subToken {
+	font-weight: 500;
+}
+
+#accountDropMenu {
+	width: 25%;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+
+#lunBalance {
+	text-align: center;
+}
